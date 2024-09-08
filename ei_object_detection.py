@@ -24,6 +24,7 @@ try:
 except Exception as e:
     raise Exception('Failed to load "labels.txt", did you copy the .tflite and labels.txt file onto the mass-storage device? (' + str(e) + ')')
 
+
 colors = [ # Add more colors if you are detecting more than 7 types of classes at once.
     (255,   0,   0),
     (  0, 255,   0),
